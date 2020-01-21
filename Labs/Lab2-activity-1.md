@@ -31,7 +31,7 @@ Visual studio จะสร้าง application code มาให้ดังร
 
 2.9 ให้ลบ code ออกให้หมด  
 
-3. แก้ไขโค้ด 
+3. แก้ไขโค้ด  
 3.1 พิมพ์โปรแกรมดังต่อไปนี้ลงในไฟล์ Win32_Lab1.cpp 
 
 ``` C++
@@ -53,11 +53,11 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nCmdSh
 
 # การส่งงาน
 
-1. fork repository นี้ แล้วสร้าง folder ขึ้นในโฟลเดอร์ย่อยที่่ชื่อ ```Lab submits``` 
-1.1 ตั้งชื่อตามรหัสนักศึกษา ไม่ต้องใส่ชื่อ 
-1.2 copy โฟลเดอร์ ใบงานลงใน folder ย่อยที่สร้างขึ้น (ระวัง อย่า move ให้ copy เท่านั้น) 
-1.3 อย่าลืมตรวจสอบไฟล์ gitignore ว่าได้ ignore ไฟล์ต่างๆ ที่ visual studio สร้างขึ้น ให้ commit เฉพาะไฟ์ที่นักศึกษาสร้างขึ้นเท่านั้น ดูตัวอย่างไฟล์ gitignore ได้จาก (https://github.com/github/gitignore/blob/master/VisualStudio.gitignore) 
+1. fork repository นี้ แล้วสร้าง folder ขึ้นในโฟลเดอร์ย่อยที่่ชื่อ ```Lab submits```  
+1.1 ตั้งชื่อตามรหัสนักศึกษา ไม่ต้องใส่ชื่อ  
+1.2 copy โฟลเดอร์ ใบงานลงใน folder ย่อยที่สร้างขึ้น (ระวัง อย่า move ให้ copy เท่านั้น)  
+1.3 อย่าลืมตรวจสอบไฟล์ gitignore ว่าได้ ignore ไฟล์ต่างๆ ที่ visual studio สร้างขึ้น ให้ commit เฉพาะไฟ์ที่นักศึกษาสร้างขึ้นเท่านั้น ดูตัวอย่างไฟล์ gitignore ได้จาก (https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)  
 1.4 เมื่อทุกอย่างเรียบร้อย ให้ทำการ Pull request โดยใช้ request message ในรูปแบบ ```stu_id:Lab_no_activity_no``` เช่น ```30xxxxxx: Lab2 Activity 1   ```
 
 ## ข้อควรระวัง 
-1. การทำ pull request โดยมีไฟล์อยู่นอก folder งานของตนเอง จะทำความเสียหายต่อ repository และอาจทำให้เกิด conflict จนนักศึกษาึนอื่นไม่สามารถส่งงานได้
+1. การทำ pull request โดยมีไฟล์อยู่นอก folder งานของตนเอง จะทำความเสียหายต่อ repository และอาจทำให้เกิด conflict จนนักศึกษาคนอื่นไม่สามารถส่งงานได้
