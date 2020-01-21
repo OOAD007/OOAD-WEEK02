@@ -24,8 +24,11 @@
 
 Windows ในที่นี้ไม่ได้หมายถึงระบบปฏิบัติการ แต่เป็นกรอบหน้าต่างสี่เหลี่ยมที่ระบบปฏิบัติการสร้างขึ้น เพื่อ
 แสดง controls เพื่อรวมรวมข้อมูลจากผู้ใช้
+
 Windows ทำหน้าที่นำเสนอข้อมูลต่อผู้ใช้ โดย Windows จะเป็นส่วนหนึ่งของ Application ในแต่ละ Application สามารถมีได้หลาย windows
+
 Operating system จะสื่อสารกับ windows ของ application ผ่าน message ของระบบ
+
 เมื่อ windows ถูกสร้างขึ้นมา จะได้รับหมายเลขประจำตัว เรียกว่า window handle
 
 ### Messages and Events
@@ -39,11 +42,13 @@ Message เป็น object เล็กๆ ในระบบวินโดส
 ### message identifier
 
 message identifier เป็นค่าคงที่ ที่รู้จักโดยทุก application ในระบบปฏิบัติการ Windows เช่น
+
 |Messages|หน้าที่|
 |--|--|
 |WM_LBUTTONDOWN| เกิดขึ้นเมื่อมีการกดปุ่มซ้ายของเมาส์WM_KEYDOWN.   เกิดขึ้นเมื่อ มีการกดปุ่มใดๆ บนคีย์บอร์ด|
 |WM_CHAR|    เกิดต่อจาก WM_KEYDOWN ประกอบด้วย  ASCII code ของอักษรที่กด <br>การกด function keys  และ arrow keys จะเกิด WM_KEYDOWN แต่ไม่มีWM_CHAR | 
 |WM_PAINT| ถูกสร้างโดย operating system เมื่อต้องการ “refreshed” ส่วนต่างๆ ของหน้าต่าง  เมื่อต้องการ resized หรือเมื่อ window ที่อยู่ด้านบนถูกลบออกไป|
+
 และอีกหลายๆ Message
 
 ### The application message queue
