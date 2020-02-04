@@ -1,0 +1,4 @@
+﻿  WIn32_Lab1.2.cpp
+d:\ปี3\เทอม2\ooad\ooad-week02\win32_lab1.2\win32_lab1.2\win32_lab1.2.cpp(19): error C2440: '=': cannot convert from 'const char [11]' to 'LPCWSTR'
+  d:\ปี3\เทอม2\ooad\ooad-week02\win32_lab1.2\win32_lab1.2\win32_lab1.2.cpp(19): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\ปี3\เทอม2\ooad\ooad-week02\win32_lab1.2\win32_lab1.2\win32_lab1.2.cpp(26): fatal error C1057: unexpected end of file in macro expansion
