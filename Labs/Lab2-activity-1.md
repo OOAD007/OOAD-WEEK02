@@ -51,8 +51,8 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmdLine, int nCmdSh
 1. โปรแกรมสามารถทำงานได้หรือไม่ 
 ตอบ ไม่ได้
 2. ถ้าไม่ได้ แก้ไขอย่างไร
-ตอบ 1. Project > Properties > Configuration Properties > General  > Character Set > Use Multi-Byte Character Set 
-2. Project > Properties > Configuration Properties > C/C++ > Precompiled Header > Not Using Precompiled Headers > Not Using Precompiled Headers 
+ตอบ 2.1. Project > Properties > Configuration Properties > General  > Character Set > Use Multi-Byte Character Set 
+     2.2. Project > Properties > Configuration Properties > C/C++ > Precompiled Header > Not Using Precompiled Headers > Not Using Precompiled Headers 
 # การส่งงาน
 
 1. fork repository นี้ แล้วสร้าง folder ขึ้นในโฟลเดอร์ย่อยที่่ชื่อ ```Lab submits```  
