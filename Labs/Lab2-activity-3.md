@@ -64,6 +64,7 @@
 ## คำถาม
 
 1. ผลการทำงานของโปรแกรมเป็นอย่างไร ให้ cature หน้าจอพร้อมอธิบายการทำงาน
+[รูปภาพ1](https://github.com/OOAD007/OOAD-WEEK02/blob/edit1/Lab%20submits/60030007/at3.PNG)[รูปภาพ2](https://github.com/OOAD007/OOAD-WEEK02/blob/edit1/Lab%20submits/60030007/at3.1.PNG)
 2. ส่งงานใน repo ตามแนวทางใน activity 1
 
 ## Challenges
