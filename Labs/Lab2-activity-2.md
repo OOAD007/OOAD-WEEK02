@@ -93,6 +93,7 @@
 
 ## คำถาม
 1. ผลการทำงานของโปรแกรมเป็นอย่างไร ให้ capture หน้าจอพร้อมอธิบายการทำงาน
+[รูปภาพ](https://github.com/OOAD007/OOAD-WEEK02/blob/edit1/Lab%20submits/60030007/at2.PNG)
 2. ส่งงานใน repo ตามแนวทางใน activity 1
 
 
